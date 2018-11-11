@@ -108,7 +108,6 @@ section {
 
 #home {
     background: none;
-    height: 100%;
 }
 
 #home-content {
@@ -197,14 +196,30 @@ h2 {
     background-color: #ffffff;
 }
 .btn-todos {
-    height: 176px;
-    width: 72px;
-    font-size: 24px;
+    height: 72px;
+    width: 150px;
+    font-size: 18px;
     font-family: "Poppins Regular";
     padding: 6px 10px;
     border: 1px solid #f7911e;
     margin: 2px 2px 2px 2px;
     color: #f7911e;
+    float: left;
+    display: block;
+}
+.btn-todos:hover {
+    background-color: #EB9033;
+    color: #fff;
+    text-decoration: none;
+}
+.estatistica-geral {
+   font-size: 44px;
+   font-family: "Poppins medium";
+}
+.grafico {
+    width: 120.47px;
+    height: 120.47px;
+    border: #1B2C53;
 }
 
 /* =================================
