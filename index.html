@@ -1,168 +1,119 @@
 <!DOCTYPE HTML>
-<!--
-	Tessellate by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
-	<head>
-		<title>Tessellate by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	</head>
-	<body class="is-preload">
 
-		<!-- Header -->
-			<section id="header" class="dark">
-				<header>
-                    <div class="row">
-<!--                      <div class="col-md-6 col-sm-12">-->
-                        <div class="row justify-content-center">
-                        <div class="col-7"><h1>Porque prometer e não cumprir, é pior que mentir.</h1>
-                        <p>Acompanhe e fiscalize se as promessas dos candidatos eleitos estão sendo cumpridas.</p><br>
-                        <div class="content style4 featured">
-                        <div class="container medium col-sm-6">
-                            <form method="post" action="#">
-                                <div class="input-group mb-3">
-                                  <input type="text" class="form-control" placeholder="Pesquisar candidato" aria-label="Pesquisar candidato" aria-describedby="basic-addon2">
-                                  <div class="input-group-append">
-                                    <button class="btn btn-primary" type="button"><span class="icon fa-search"></span></button>
-                                  </div>
-                                </div>
-                            </form>
-                        </div>
-				    </div>
-                        </div>
-                        </div>
-                      <div class="col-md-6 col-sm-12"></div>
-                    </div>
-				</header>
-                    
+<head>
+    <!-- important meta tags-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-			</section>
+    <!---title-->
+    <title>Promessômetro</title>
 
-		<!-- First -->
-            
-			<section id="first" class="main">
-				<div class="section01">
-                <div class="container">  
-                    <strong><h2>Conheça o Promessômetro</h2></strong><br><br>
-                    <div class="row">
-                    <div class="col-sm">
-                                <img src="images/asset__02_icone_lupa.png">
-                                <h3><br>Pesquise um Governante</h3>
+    <!--- Favicon --->
+    <link rel="icon" href="img/favicon.png">
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+    <!--- Bootstrap CSS --->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+           <div class="row">
+               <div class="col-md-6">
+                   <a href="index.html">
+                        <img src="img/header.png" alt="Promessometro">
+                    </a>
+               </div>
+                <div class="col-md-6">
+                    <nav>
+                        <ul class="menu-top">
+                            <li><a href="sobre.html">Sobre</a></li>
+                            <li><a href="">Contato</a></li>
+                            <li><a href="">Colabore Conosco</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+    <section id="home">
+        <div class="container">
+            <div class="row">
+                <div class="home-title col-md-6">
+                    <h1>Porque prometer e não cumprir, é pior do que mentir.</h1><br>
+                    <p>Acompanhe e fiscalize se as promessas dos candidatos eleitos estão sendo cumpridas. Digite um nome e/ou um <br />
+                        ano para começar. </p>
+                </div>
+            </div>
+            <div class="row">
+                <form>
+                    <div class="form-row">
+                        <div class="btn-candidato">
+                            <div class="form-group col-md-7 btn-design-candidato">
+                                <input type="text" class="form-control form-fields" id="inputCity" placeholder="Escreva aqui o nome do Candidato" required>
                             </div>
-                        
-                            <div class="col-sm">
-                            
-                                <img src="images/asset__02_icone_periodoeleitoral.png">
-                                <h3><br>Escolha um período eleitoral</h3>
-                                </div>
-                       
-                            <div class="col-sm">
-                                <img src="images/asset__02_icone_acompanhe.png">
-                                <h3><br>Acompanhe as promessas</h3>
-                            </div>
+                        </div>
+                        <div class="form-group col-md-5 btn-design-candidato btn-ano style=">
+                            <select id="inputState" class="form-control form-fields">
+                                <option selected>Escolha um ano</option>
+                                <option>2018</option>
+                                <option>2014</option>
+                            </select>
                         </div>
                     </div>
-				</div>
-				<div class="section03">
-				<div class="container">
-                        <p class="text-center"><strong><h2>Acesso Rápido:</h2></strong></p>
-                       <div class="w-50 p-3"><h3><text-ident = "right">Acompanhe as propostas dos atuais governantes</text-ident></h3><br><br></div>
-						<div class="row">
-				        <div class="col-sm">
-								   <h4 class="passo01"><p class="boxmodel">Presidentes</p></h4>
-							
-							</div>
-							<div class="col-sm">
-								
-								
-										<h4 class="passo01"><p class="boxmodel">Governadores</p></h4>
-									
-								
-							</div>
-							<div class="col-sm">
-								
-									
-										<h4 class="passo01"><p class="boxmodel">Prefeitos</p></h4>
-								
-                               
-							</div>
-				        </div>
-				    </div>
+                </form>
+                <a class="btn btn-general btn-search btn-lg" title="Clique logo" role="button"><span class="glyphicon glyphicon-search"></span></a>
+            </div>
+            <div class="row">
+                <div class="col-md-7 card">
+                    <h2>Acesso rápido</h2>
+                    <p>Clique e acompanhe as propostas dos atuais <br /> governantes</p>
+                    <a class="btn-todos" title="01. Presidentes" role="button">Presidentes</a>
+                    <a class="btn-todos" title="02. Governadores" role="button"> Governadores</a>
+                    <a class="btn-todos" title="03. Prefeitos" role="button"> Prefeitos</a>
+                    <a class="btn-todos" title="04. Todos" role="button">Todos</a>
                 </div>
-                <div class="section02">
-                <div class="container">  
-                <div class="row">
-                <div class="col-6"></div>
-                <div class="col-6">
-                    <div class="w-75 p-3" style="background-color: #1b2c53;">
-                    <strong><font size="20px">Verifique todos os governantes</font></strong><br><br></div>
-                    <button type="button" class="btn btn-primary btn-lg">Ver todos</button>
-                    </div>
-				</div>
-                    </div>
+                <div class="col-md-4 card">
+                    <h2>Contribua aqui</h2>
+                    <p>Sabe de alguma proposta <br />que não foi cumprida?</p>
+                    <a class="btn btn-general btn-colabore btn-lg" href="#about" title="Clique logo" role="button">Colabore aqui</a>
                 </div>
-                
-                
-                
-                <div class="section04">
-				<div class="container"> 
-                <div class="row">
-                <div class="col-6"></div>
-                <div class="col-6">
-                    
-                    <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">PLAY</a>
-                    <h1>Planejamento e Orçamento</h1>
-                    <p>Saiba como uma promessa torna-se um projeto de governo e o que é PPA, LDO e LOA</p>
-                </div>                   
-                </div>
-                </div>
-                </div>
-<!--         //dirceu borboleta odorico paraguaçu francis wonderwood -->
-            <div class="section03">
-				<div class="container">
-                        <p class="text-center"><strong><h2>Denuncie aqui a proposta não cumprida.</h2></strong></p>
-                       <div class="w-50 p-3"><h3>Você conhece algum candidato que prometeu algo e não cumpriu? Conte para nós.</h3><br><br></div>
-						
-				    </div>
-                </div>
-        
-			<section id="fourth" class="main">
-				
-				<div class="content style4 featured">
-					<div class="container medium">
-						<form method="post" action="#">
-							<div class="row gtr-50">
-								<div class="col-6 col-12-mobile"><input type="text" placeholder="Name" /></div>
-								<div class="col-6 col-12-mobile"><input type="text" placeholder="Email" /></div>
-								<div class="col-12"><textarea name="message" placeholder="Message"></textarea></div>
-								<div class="col-12">
-									<ul class="actions special">
-										<li><input type="submit" class="button alt" value="Send Message" /></li>
-										<li><input type="reset" class="button alt" value="Clear Form" /></li>
-									</ul>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</section>
+            </div>
 
-		<!-- Footer -->
-			<section id="footer">
-				<div class="foot">
-					<div class="copyright">
-						<ul class="menu">
-							<li>&copy; Untitled. All rights reserved.</li>
-						</ul>
-					</div>
-                </div>
-			</section>
+        </div>
+    </section>
+    <section id="about">
 
-		<!-- Scripts -->
-			</body>
+    </section>
+
+    <!-- JQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!--- Bootstrap JS -->
+    <script src="js/bootstrap/bootstrap.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
 </html>
