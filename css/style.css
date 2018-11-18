@@ -149,6 +149,11 @@ h1 {
     padding-top: 170px;
     
 }
+h3 {
+    font-family: "Poppins Medium";
+    font-size: 24px;
+    line-height: 40px;
+}
 p {
     font-family: "Poppins Regular";
     font-size: 24px;
@@ -221,7 +226,24 @@ h2 {
     height: 120.47px;
     border: #1B2C53;
 }
-
+.form-contato input {
+    width: 100%;
+    border: 1px solid #F7911E;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+}
+.form-contato textarea {
+    width: 100%;
+    height: 224px;
+    border: 1px solid #F7911E;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background-color: #4E4E4E; 
+    margin-top: 10px;
+    color: #fff;
+    width: 100%;
+    padding: 15px 0;
+}
 /* =================================
 |   |   |  Buttons
 ==================================== */
