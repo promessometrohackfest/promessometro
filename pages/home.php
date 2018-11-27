@@ -168,7 +168,7 @@ endif;
     </div>
   </div>
 	<contato id="contato">
-		<form action="contato.php" method="post">
+		<form action="mail_send.php" method="post">
   <div class="py-3 text-center">
     <div class="container">
       <div class="row text-center" style="">
@@ -177,10 +177,10 @@ endif;
           <h5 class="text-center">Você tem duvidas ou sugetões ou gostaria de nos dizer alguma coisa? entre em contado para conversarmos<br></h5>
           <form>
             <div class="form-row">
-              <div class="form-group col-md-12" style=""> <input type="text" class="form-control" id="nomecontato" name="nomecontato" placeholder="Name"> </div>
+              <div class="form-group col-md-12" style=""> <input type="text" class="form-control" name="nomecontato" placeholder="Name"> </div>
               <div class="form-group col-md-6" style=""> </div>
             </div>
-            <div class="form-group"><input type="email" class="form-control" id="emailcontato" name="emailcontato" placeholder="Email"></div>
+            <div class="form-group"><input type="email" class="form-control"  name="emailcontato" placeholder="Email"></div>
             <div class="form-group"> <textarea class="form-control" id="msgcontato" name="msgcontato" rows="3" placeholder="mensagem"></textarea> </div> <button type="submit" class="btn btn-warning">Enviar</button>
           </form>
         </div>
