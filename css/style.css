@@ -33,10 +33,6 @@
     font-family: "Poppins Bold";
     src: url("fonts/Poppins-Bold.ttf");
 }
-@font-face{
-    font-family: "Poppins SemiBold";
-    src: url("fonts/Poppins-SemiBold.ttf")
-}
 html,
 body {
     height: 100%;
@@ -151,9 +147,10 @@ section {
 }
 
 #home {
-    background-image: url(../img/home/Ilustra_01.png), url(../img/home/Ilustra_02_manchas.png);
+    background-image: url(../images/Ilustra_01.png), url(../images/Ilustra_02_manchas.png);
     background-repeat: no-repeat, no-repeat;
-    background-position: right top, left top;
+    background-position:right top, left top;
+	background-size: 40%;
 }
 h1 {
     font-family: "Poppins Medium";
@@ -288,7 +285,6 @@ footer {
     background-color: #f7911e;
     width: 80px;
     height: 80px;
-    padding-top: 30px;
 }
 .btn-colabore{
     color: #fff;
@@ -354,6 +350,7 @@ footer {
 }
 .fundo-cinza {
     background-color: #FAFAFC;
+
 }
 .paddingTop30{
     padding-top: 30px;
@@ -425,54 +422,4 @@ footer {
     color: #1B2C53;
     font-size: 30px;
     margin: 0;
-}
-
-/*
-    Modal
-*/
-
-.modal .modal-title{
-    float: left;
-    font-family: "Poppins Medium";
-    font-size: 44px;
-    width: 213px;
-    height: 61;
-}
-.modal input, .modal select{
-    border: 1px solid #EB9033;
-    height: 40px;
-    width: 100%;
-    font-family: "Poppins Regular";
-    font-size: 20px;
-}
-.modal span {
-    font-family: "Poppins SemiBold";
-    font-weight: bold;
-    font-size: 20px;
-}
-.modal select {
-    font-size: 15px;
-}
-.modal textarea {
-    width: 100%;
-    height: 224px;
-    border: 1px solid #F7911E;
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
-}
-.modal .btncancelar {
-    border: 1px solid #F7911E;
-    width: 150px;
-    height: 53px;
-    color: #F7911E;
-    background-color: #FFFFFF;
-}
-.modal .btnenviar {
-    background-color: #F7911E;
-    width: 150px;
-    height: 53px;
-    color: #FFFFFF;
-    border: 1px solid #F7911E;
-}
-.modal-header, .modal-footer{
-    border: 0;
 }
