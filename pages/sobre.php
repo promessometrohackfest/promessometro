@@ -13,15 +13,7 @@
                     <h4>Plataforma idealizada durante o 1° AMAZON Hackfest evento voltando para a criação de soluções para combate à corrupção. Nosso objetivo é oferecer ao povo uma ferramenta leve que todos possam acompanhar seu candidatos eleitos e saber o andamento das promessas feitas durante a campanha. </h4>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <h2>Sobre Nós</h2><br>
-                    <h4>Somos uma equipe multidisciplinar composta por estudantes e profissionais nas áreas de direito, programação, designer, contabildade e outras, unidos pelo objetivo de oferecer mais transparência para a população.  </h4>
-                </div>
-                <div class="col-md-6">
-                    <img src="images/equipe@2x.png" width="500" />
-                </div>
-            </div>
+            
         </div>
     </section>
         <section id="about">
@@ -35,46 +27,33 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-6 p-4"> <img class="rounded-circle" src="images/jr.jpg" width="100" alt="Card image cap">
+        <div class="col-lg-3 col-6 p-4"> <img class="rounded-circle" src="equipe/jr.jpg" width="100" alt="Card image cap">
           <h4> <b>José Jr</b> </h4>
           <p>Desenvolvedor Front End/Back End</p>
           <p class="mb-0"> <i>"Bacharel em Ciência da Computação, especialsta em Auditoria e segurança de informatica"</i> </p>
         </div>
-        <div class="col-lg-3 col-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="https://static.pingendo.com/img-placeholder-2.svg" width="100" alt="Card image cap">
-          <h4> <b>Marcio</b> </h4>
-          <p>CEO</p>
-          <p class="mb-0"> <i>"As I lie close to the earth, a thousand unknown plants"</i> </p>
+        <div class="col-lg-3 col-6 p-4"> <img class="rounded-circle" src="equipe/marcio.jpg" width="100" alt="Card image cap">
+          <h4> <b>Marcio Lira</b> </h4>
+          <p>Empreendedor Social, Pai, Entusiasta.</p>
+          <p class="mb-0"> <i>"Advogado, acredita que a tecnologia é o melhor caminho para melhorar a vida das pessoas"</i> </p>
         </div>
-        <div class="col-lg-3 col-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="https://static.pingendo.com/img-placeholder-3.svg" width="100">
-          <h4> <b>Yure</b> </h4>
-          <p>CFO</p>
-          <p class="mb-0"> <i>"Then, my friend, when darkness overspreads my eyes"</i> </p>
+        <div class="col-lg-3 col-6 p-4"> <img class="rounded-circle" src="equipe/katelen.jpeg" width="100">
+          <h4> <b>Katleen</b> </h4>
+          <p>Desenvolvendora web</p>
+          <p class="mb-0"> <i>"Estudando de engenharia elétrica, estagiária na Sídia"</i> </p>
         </div>
-        <div class="col-lg-3 col-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="https://static.pingendo.com/img-placeholder-4.svg" width="100">
+        <div class="col-lg-3 col-6 p-4"> <img class=" rounded-circle" src="equipe/marilia.png" width="100">
           <h4> <b>Marilia</b> </h4>
-          <p>CTO</p>
-          <p class="mb-0"> <i>"Heaven and earth seem to dwell in my soul"</i> </p>
+          <p>Graduanda em TADS</p>
+          <p class="mb-0"> <i>"Entusiasta da programação, louca por café e linhas de código"</i> </p>
         </div>
-		  <div class="col-lg-3 col-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="https://static.pingendo.com/img-placeholder-4.svg" width="100">
-          <h4> <b>Victor</b> </h4>
-          <p>CTO</p>
-          <p class="mb-0"> <i>"Heaven and earth seem to dwell in my soul"</i> </p>
+		 
+		  <div class="col-lg-3 col-6 p-4"> <img class="i rounded-circle" src="equipe/alan.jpeg" width="100">
+          <h4> <b>Alan Delon</b> </h4>
+          <p>Administrador por formação e chocolatra por paixão.</p>
+          <p class="mb-0"> <i>"Com especializações em gestão de pessoas e gestão de negócios inovadores, possui experiência em monitoria e gestão de projetos sociais com refugiados e imigrantes em parceria com o Alto Comissariado das Nações Unidas para os Refugiados – ACNUR."</i> </p>
         </div>
-		  <div class="col-lg-3 col-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="https://static.pingendo.com/img-placeholder-4.svg" width="100">
-          <h4> <b>Cristiano</b> </h4>
-          <p>CTO</p>
-          <p class="mb-0"> <i>"Heaven and earth seem to dwell in my soul"</i> </p>
-        </div>
-		  <div class="col-lg-3 col-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="https://static.pingendo.com/img-placeholder-4.svg" width="100">
-          <h4> <b>Amadeus</b> </h4>
-          <p>CTO</p>
-          <p class="mb-0"> <i>"Heaven and earth seem to dwell in my soul"</i> </p>
-        </div>
-		  <div class="col-lg-3 col-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="https://static.pingendo.com/img-placeholder-4.svg" width="100">
-          <h4> <b>Amadeus</b> </h4>
-          <p>CTO</p>
-          <p class="mb-0"> <i>"Heaven and earth seem to dwell in my soul"</i> </p>
-        </div>
+		 
       </div>
     </div>
   </div>

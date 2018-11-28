@@ -25,7 +25,7 @@
         <ul class="navbar-nav ml-auto ">
           <li class="nav-item"> <a class="nav-link active" href="index.php">Inicio</a> </li>
           <li class="nav-item"> <a class="nav-link active" href="sobre.php">Sobre</a> </li>
-          <li class="nav-item"> <a class="nav-link active" href="#contato">Contato</a> </li>
+          <li class="nav-item"> <a class="nav-link active" href="index.php#contato">Contato</a> </li>
           <li><a class="nav-link active" data-toggle="modal" data-target="#exampleModal" href="#exampleModal" #exampleModal>Colabore Conosco</a></li>
         </ul>
       </div>

@@ -44,7 +44,7 @@ endif;
       </div>
     </div>
   </div>
- <form action="" class="form">
+ <form action="todos.php" class="form">
    <div class="ml-5 pl-5" style="">
     <div class="container">
       <div class="row ml-4" >
@@ -76,9 +76,9 @@ endif;
         <div class="form-group col-lg-6 text-dark bg-white mr-1 border border-warning" style="">
           <h4 contenteditable="true">Acesso rápido</h4>
           <h6 class="w-75">Clique e acompanhe as propostas dos atuais&nbsp; governantes</h6>
-          <a class="btn btn-outline-warning mx-1 btn-lg" href="#">Presidente</a>
-          <a class="btn btn-outline-warning mx-1 btn-lg" href="#">Governador</a>
-          <a class="btn btn-outline-warning mx-1 btn-lg" href="#">Prefeitos</a>
+          <a class="btn btn-outline-warning mx-1 btn-lg" href="presidentes.php">Presidente</a>
+          <a class="btn btn-outline-warning mx-1 btn-lg" href="governadores.php">Governador</a>
+          <a class="btn btn-outline-warning mx-1 btn-lg" href="prefeitos.php">Prefeitos</a>
           <a class="btn btn-outline-warning mx-1 btn-lg" href="todos.php">Todos</a>
           <span class="msg-erro msg-nome"></span>
         </div>

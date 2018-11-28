@@ -215,7 +215,7 @@ endif;
 			<?php if(!empty($contato)):?>
 
 				<!-- Tabela de denucias -->
-          <h3>Cotatos</h3>
+          <h3>Contatos</h3>
         
 				<div style="width: 100%; height: 345px; overflow-x: hidden; overflow-y; scrool;" class="w-100">
           		<table class="table table-striped table">
