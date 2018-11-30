@@ -38,7 +38,7 @@ endif;
     <div class="container">
       <div class="row">
         <div class="px-4 pr-2 col-md-8" style="">
-          <h2 class="text-left ml-5 text-dark px-4" style="">Por que Prometer e não Cumprir, é pior do que mentir<br></h2>
+          <h2 class="text-left ml-5 text-dark px-4" style="">Porque Prometer e não Cumprir, é pior do que mentir<br></h2>
           <p class="lead ml-5 pl-4">Acompnhe e fiscalize as promessas dos candidatos&nbsp; eleitos estão sendo cumpridas. Digite um nome/ou um ano para começar.</p>
         </div>
       </div>
@@ -147,7 +147,7 @@ endif;
       <div class="row">
         <div class="col-md-12">
           <h1 class="mb-3 mt-5">PPA, LDO e LOA</h1>
-          <h5 class="text-center mx-5 px-5">Você sabe como funciona a gestão do dinheiro publico? Assista esse três videos que separamos para você e saiba mais como fiscalizar seus governantes.</h5>
+          <h5 class="text-center mx-5 px-5">Você sabe como funciona a gestão do dinheiro publico? Assista esses três videos que separamos para você e saiba mais como fiscalizar seus governantes.</h5>
         </div>
       </div>
     </div>

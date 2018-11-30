@@ -61,9 +61,9 @@
       </div>
       <div class="row">
         <div class="col-lg-3 col-6 p-4"> <img class="rounded-circle" src="../equipe/jr.jpg" width="100" alt="Card image cap">
-          <h4> <b>José Jr</b> </h4>
-          <p>Desenvolvedor Front End/Back End</p>
-          <p class="mb-0"> <i>"Bacharel em Ciência da Computação, especialsta em Auditoria e segurança de informatica"</i> </p>
+          <h4> <b>José Nascimento Jr</b> </h4>
+          <p>Desenvolvedor Front-End/Back-End</p>
+          <p class="mb-0"> <i>"Bacharel em Ciência da Computação, Pós-Graduado em Auditoria e segurança de informatica"</i> </p>
         </div>
         <div class="col-lg-3 col-6 p-4"> <img class="rounded-circle" src="..//equipe/marcio.jpg" width="100" alt="Card image cap">
           <h4> <b>Marcio Lira</b> </h4>
@@ -72,8 +72,8 @@
         </div>
         <div class="col-lg-3 col-6 p-4"> <img class="rounded-circle" src="..//equipe/katelen.jpeg" width="100">
           <h4> <b>Katleen</b> </h4>
-          <p>Desenvolvendora web</p>
-          <p class="mb-0"> <i>"Estudando de engenharia elétrica, estagiária na Sídia"</i> </p>
+          <p>Desenvolvendora Front-End</p>
+          <p class="mb-0"> <i>"Estudante de engenharia elétrica, estagiária na Sídia."</i> </p>
         </div>
         <div class="col-lg-3 col-6 p-4"> <img class=" rounded-circle" src="..//equipe/marilia.png" width="100">
           <h4> <b>Marilia</b> </h4>

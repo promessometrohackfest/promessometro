@@ -34,6 +34,6 @@
 		    	echo "<div class='alert alert-danger' role='alert'>Erro ao enviar denuncia!</div> ";
 			endif;
 
-			echo "<meta http-equiv=refresh content='3;URL=home.php'>";
+			echo "<meta http-equiv=refresh content='3;URL=../App/index.php'>";
 		
 ?>
