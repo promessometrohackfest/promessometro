@@ -44,8 +44,8 @@
         </div>
         <div class="col-lg-3 col-6 p-4"> <img class=" rounded-circle" src="equipe/marilia.png" width="100">
           <h4> <b>Marilia</b> </h4>
-          <p>Graduanda em TADS</p>
-          <p class="mb-0"> <i>"Entusiasta da programação, louca por café e linhas de código"</i> </p>
+          <p>Desenvolvendora Front-End</p>
+          <p class="mb-0"> <i>"Graduanda em Análise e Desenvolvimento de Sistemas, entusiasta da programação, louca por café e linhas de código"</i> </p>
         </div>
            
            <div class="col-lg-3 col-6 p-4"> <img class=" rounded-circle" src="equipe/yure.jpeg" width="100">
