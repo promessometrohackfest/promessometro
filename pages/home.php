@@ -194,7 +194,7 @@ endif;
       <div class="row">
         <div class="col-md-2 offset-md-4"><img class="d-block img-fluid" src="images/logo-login.png" width="75%" ></div>
         <div class="col-md-6">
-          <h2 class="mr-5 mb-1 pr-5">Confira também nosso aplicativo</h2><button type="submit" class="btn btn-warning ">ir para loja</button>
+          <h2 class="mr-5 mb-1 pr-5">Confira também nosso aplicativo</h2><a  href="https://play.google.com/store/apps/details?id=com.promessometro.promessometro" target="_blank" class="btn btn-warning ">ir para loja</a>
         </div>
       </div>
     </div>
