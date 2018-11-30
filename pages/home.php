@@ -39,7 +39,7 @@ endif;
       <div class="row">
         <div class="px-4 pr-2 col-md-8" style="">
           <h2 class="text-left ml-5 text-dark px-4" style="">Porque Prometer e não Cumprir, é pior do que mentir<br></h2>
-          <p class="lead ml-5 pl-4">Acompnhe e fiscalize as promessas dos candidatos&nbsp; eleitos estão sendo cumpridas. Digite um nome/ou um ano para começar.</p>
+          <p class="lead ml-5 pl-4">Acompanhe e fiscalize se as promessas dos candidatos&nbsp;eleitos estão sendo cumpridas. Digite um nome/ou um ano para começar.</p>
         </div>
       </div>
     </div>
