@@ -50,7 +50,7 @@ endif;
 
 <body href="images/Background Gradiente-01.svg" style="	background-image: url(&quot;../images/Ilustra_01.png&quot;), url(&quot;../images/Ilustra_02_manchas.png&quot;);	background-position: right top, top left;	background-size: 40%, 65%;	background-repeat: no-repeat, no-repeat;" >
   <nav class="navbar navbar-expand-md mb-5 sticky-top navbar-light header" style="">
-    <div class="container"> <a class="navbar-brand text-primary" href=".../index.php">
+    <div class="container"> <a class="navbar-brand text-primary" href="../index.php">
         <i class="fa d-inline fa-lg fa-stop-circle"></i>
         <img class="img-fluid d-block" src="../images/header.png">
       </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4">
@@ -82,6 +82,7 @@ endif;
     </div>
   </div>
      
+     
      <?php if(!empty($clientes)):?>
 <table class="table table-striped table-dark">
     <thead>
@@ -112,3 +113,4 @@ endif;
 				<!-- Mensagem caso não exista clientes ou não encontrado  -->
 				<h3 class="text-center text-primary">Não existem promessas cadastrados!</h3>
 			<?php endif; ?>
+     

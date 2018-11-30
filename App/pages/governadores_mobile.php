@@ -112,3 +112,85 @@ endif;
 				<!-- Mensagem caso não exista clientes ou não encontrado  -->
 				<h3 class="text-center text-primary">Não existem promessas cadastrados!</h3>
 			<?php endif; ?>
+     
+      <!-- Modal -->
+<form action="action_denuncia.php" method="post">
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Denúncia</h5>
+                  
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                    <div class="col-md-12">
+                            Preencha as informações o contribua com a plataforma. Todas as informações são sigilosas e as informações de contato são opcionais. <br />
+                    </div>
+						
+						
+                    <div class="form col-lg-6 ">
+                        <span>Nome(Opcional)</span><br /><input class="form-control border border-warning" type="text" id="nomedenuncia" name="nomedenuncia" />
+                    </div>
+                    <div class="col-md-6">
+                        <span>Email(Opcional)</span><br /><input class="form-control border border-warning" type="text" id="emaildenuncia" name="emaildenuncia" />
+                    </div>
+                    <div class="col-md-6">
+                        <span>Nome do Candidato</span><br /><input class="form-control border border-warning" type="text" id="politicodenuncia" name="politicodenuncia" />
+                    </div>
+                    <div class="col-md-6">
+                        <span for="estadodenuncia">Estado</span><br />
+                        <select class="form-control border border-warning" name="estadodenuncia">
+                            <option selected>Estado</option>
+                           					 <option value="AC">Acre</option>
+										      <option value="AL">Alagoas</option>
+										      <option value="AP">Amapá</option>
+										      <option value="AM">Amazonas</option>
+										      <option value="BA">Bahia</option>
+										      <option value="CE">Ceará</option>
+										      <option value="DF">Distrito Federal</option>
+										      <option value="ES">Espirito Santo</option>
+										      <option value="GO">Goiás</option>
+										      <option value="MA">Maranhão</option>
+										      <option value="MS">Mato Grosso do Sul</option>
+										      <option value="MT">Mato Grosso</option>
+										      <option value="MG">Minas Gerais</option>
+										      <option value="PA">Pará</option>
+										      <option value="PB">Paraíba</option>
+										      <option value="PR">Paraná</option>
+										      <option value="PE">Pernambuco</option>
+										      <option value="PI">Piauí</option>
+										      <option value="RJ">Rio de Janeiro</option>
+										      <option value="RN">Rio Grande do Norte</option>
+										      <option value="RS">>Rio Grande do Sul</option>
+										      <option value="RO">Rondônia</option>
+										      <option value="RR">Roraima</option>
+										      <option value="SC">Santa Catarina</option>
+										      <option value="SP">São Paulo</option>
+										      <option value="SE">Sergipe</option>
+										      <option value="TO">Tocantins</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <span>Denúncia</span><br /><textarea class="form-control border border-warning" type="text" id="descricaodenuncia" name="descricaodenuncia" size="30"></textarea>
+                    </div>
+                
+            </div>   
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-danger btncancelar" rows="3" data-dismiss="modal">Cancelar e sair</button>
+        <button type="submit" class="btn btn-warning btnenviar">Enviar denúncia</button>
+    </div>
+              </div>
+            </div>
+          </div>
+</form>
+
+ <!-- JQuery -->
+                <script src="../App/js/jquery.js"></script>
+				<script src="../App/js/script.js"></script>
+				<script src="../App/js/bootstrap.js"></script>
+				<script src="../App/js/bootstrap.bundle.js"></script>

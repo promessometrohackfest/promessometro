@@ -10,7 +10,7 @@
                 </div>
                 <div class="col-md-6">
                     <h2>Sobre o Promessômetro</h2><br>
-                    <h4>Plataforma idealizada durante o 1° AMAZON Hackfest evento voltado para a criar soluções no combate à corrupção. Nosso objetivo é oferecer ao povo uma ferramenta leve que todos possam acompanhar seu candidatos eleitos e saber o andamento das promessas feitas durante a campanha. </h4>
+                    <h4>Plataforma idealizada durante o 1° AMAZON Hackfest evento voltado para a criar soluções no combater à corrupção. Nosso objetivo é oferecer ao povo uma ferramenta leve em que todos possam acompanhar seus candidatos eleitos e saber o andamento das promessas feitas durante campanha eleitoral. </h4>
                 </div>
             </div>
             
