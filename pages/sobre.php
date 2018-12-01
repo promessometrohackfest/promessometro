@@ -10,7 +10,7 @@
                 </div>
                 <div class="col-md-6">
                     <h2>Sobre o Promessômetro</h2><br>
-                    <h4>Plataforma idealizada durante o 1° AMAZON Hackfest evento voltado para a criar soluções no combater à corrupção. Nosso objetivo é oferecer ao povo uma ferramenta leve em que todos possam acompanhar seus candidatos eleitos e saber o andamento das promessas feitas durante campanha eleitoral. </h4>
+                    <h4>Plataforma idealizada durante o 1° AMAZON Hackfest, evento voltado para a criar soluções no combater à corrupção. Nosso objetivo é oferecer ao povo uma ferramenta leve em que todos possam acompanhar seus candidatos eleitos e saber o andamento das promessas feitas durante campanha eleitoral. </h4>
                 </div>
             </div>
             
@@ -43,7 +43,7 @@
           <p class="mb-0"> <i>"Estudante de engenharia elétrica, estagiária na Sídia"</i> </p>
         </div>
         <div class="col-lg-3 col-6 p-4"> <img class=" rounded-circle" src="equipe/marilia.png" width="100">
-          <h4> <b>Marilia</b> </h4>
+          <h4> <b>Marilia Soares</b> </h4>
           <p>Desenvolvendora Front-End</p>
           <p class="mb-0"> <i>"Graduanda em Análise e Desenvolvimento de Sistemas, entusiasta da programação, louca por café e linhas de código"</i> </p>
         </div>
