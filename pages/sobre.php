@@ -50,8 +50,8 @@
            
            <div class="col-lg-3 col-6 p-4"> <img class=" rounded-circle" src="equipe/yure.jpeg" width="100">
           <h4> <b>Yure Luniere</b> </h4>
-          <p>Estudante</p>
-          <p class="mb-0"> <i>"Acadêmico de Engenharia de Controle e Automação"</i> </p>
+          <p>Acadêmico de Engenharia de Controle e Automação</p>
+          <p class="mb-0"> <i>"Futuro Tony Stark brasileiro, apaixonado por games e tecnologia. Busca conhecimento constante nas mais diversas áreas possíveis."</i> </p>
         </div>
            
            <div class="col-lg-3 col-6 p-4"> <img class=" rounded-circle" src="equipe/victor.jpeg" width="100">
