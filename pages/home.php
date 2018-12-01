@@ -107,7 +107,7 @@ endif;
           <h5> <b class="">Das promesssas não foram cumpridas</b></h5>
         </div>
         <div class="col-lg-3 col-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="images/grafico_90_.svg" width="100" alt="Card image cap">
-          <h5> <b class="">Dos entrevistados sentiram-se enganado</b></h5>
+          <h5> <b class="">Dos entrevistados sentiram-se enganados</b></h5>
         </div>
         <div class="col-lg-3 col-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="images/grafico_62_.svg" width="100">
           <h5> <b>Das promessas não foram cumpridas</b></h5>
@@ -128,7 +128,7 @@ endif;
     <div class="container">
       <div class="row">
         <div class="mx-auto col-md-12">
-          <h1 class="mb-3">Simplicidade e tansparência</h1>
+          <h1 class="mb-3">Simplicidade e transparência</h1>
           <div class="col-md-12">
             <h5 contenteditable="true" class="text-center mx-5 px-5">O promessômetro funciona em dois passos muito simples para que você possa fiscalizar seus candidatos sem dificuldades!</h5>
           </div>
@@ -147,7 +147,7 @@ endif;
       <div class="row">
         <div class="col-md-12">
           <h1 class="mb-3 mt-5">PPA, LDO e LOA</h1>
-          <h5 class="text-center mx-5 px-5">Você sabe como funciona a gestão do dinheiro publico? Assista esses três videos que separamos para você e saiba mais como fiscalizar seus governantes.</h5>
+          <h5 class="text-center mx-5 px-5">Você sabe como funciona a gestão do dinheiro público? Assista esses três videos que separamos para você e saiba mais como fiscalizar seus governantes.</h5>
         </div>
       </div>
     </div>
@@ -174,7 +174,7 @@ endif;
       <div class="row text-center" style="">
         <div class="mx-auto p-4 col-lg-7">
           <h2 class="mb-2">Entre em contato conosco</h2>
-          <h5 class="text-center">Você tem duvidas ou sugetões ou gostaria de nos dizer alguma coisa? entre em contado para conversarmos<br></h5>
+          <h5 class="text-center">Você tem dúvidas, sugestões ou gostaria de nos dizer alguma coisa? Entre em contado para conversarmos.<br></h5>
           <form>
             <div class="form-row">
               <div class="form-group col-md-12" style=""> <input type="text" class="form-control" name="nomecontato" placeholder="Name"> </div>
