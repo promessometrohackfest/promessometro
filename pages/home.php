@@ -1,24 +1,17 @@
 <?php
 require_once'Conn/conexao.php';
 require_once'Conn/conection.php';
-
-
 // Recebe o termo de pesquisa se existir
 $termo = (isset($_GET['termo'])) ? $_GET['termo'] : '';
-
-
  
 // Verifica se o termo de pesquisa está vazio, se estiver executa uma consulta completa
 if (empty($termo)):
-
 	$conexao = conexao::getInstance();
 	$sql = 'SELECT id, tipopromessa, nomepolitico, nomepromessa, detalhepromessa, anopromessa, estadopromessa, cidadepromessa, status, foto FROM tab_promessas';
 	$stm = $conexao->prepare($sql);
 	$stm->execute();
 	$clientes = $stm->fetchAll(PDO::FETCH_OBJ);
-
 else:
-
 	// Executa uma consulta baseada no termo de pesquisa passado como parâmetro
 	$conexao = conexao::getInstance();
 	$sql = 'SELECT id, tipopromessa, nomepolitico, nomepromessa, detalhepromessa, anopromessa, estadopromessa, cidadepromessa, status, foto FROM tab_promessas WHERE nomepolitico LIKE :nomepolitico OR anopromessa LIKE :anopromessa';
@@ -27,10 +20,7 @@ else:
 	$stm->bindValue(':anopromessa', $termo.'%');
 	$stm->execute();
 	$clientes = $stm->fetchAll(PDO::FETCH_OBJ);
-
 endif;
-
-
 ?>
 
 
@@ -110,7 +100,7 @@ endif;
           <h5> <b class="">Dos entrevistados sentiram-se enganados</b></h5>
         </div>
         <div class="col-lg-3 col-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="images/grafico_62_.svg" width="100">
-          <h5> <b>Das promessas não foram cumpridas</b></h5>
+          <h5> <b>Dos entrevistados sentiram-se insatisfeitos</b></h5>
         </div>
         <div class="col-lg-3 col-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="images/grafico_93_.svg" width="100">
           <h5> <b>Dos entrevistados desejam acompanhar as promessas</b></h5>
@@ -280,4 +270,4 @@ endif;
                 <script src="js/jquery.js"></script>
 				<script src="js/script.js"></script>
 				<script src="js/bootstrap.js"></script>
-				<script src="js/bootstrap.bundle.js"></script>
+                    <script src="js/bootstrap.bundle.js"></script>
