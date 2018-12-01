@@ -95,7 +95,7 @@ endif;
       <div class="row">
         <div class="col-md-12" style="">
           <h3 class="display-4 text-center" style="">Estatísticas</h3>
-          <h3 class="text-center mx-5 px-5">Veja os niveis de satisfação de nosso publico com as promessas feitas nas ultimas campanhas</h3>
+          <h3 class="text-center mx-5 px-5">Veja os níveis de satisfação de nosso público com as promessas feitas nas últimas campanhas</h3>
         </div>
       </div>
     </div>
@@ -140,7 +140,7 @@ endif;
           <p class="mx-5 mb-0">Você pode encontrar o candidato pelo nome, ano de eleição, estado e cargo ocupado</p>
         </div>
         <div class="col-6 col-lg-6 p-4"> <img class="img-fluid d-block mx-auto mt-4 mb-4 img-thumbnail" src="images/Símbolo - Não Cumprido.svg" width="200" alt="Card image cap">
-          <h4> <b>Abra a pagina e acompanhe!</b></h4>
+          <h4> <b>Abra a página e acompanhe!</b></h4>
           <p class="mt-4 mb-0 text-center px-5">Veja a lista das promessas e confira o promessômetro para ficar por dentro do seu andamento</p>
         </div>
       </div>
@@ -215,7 +215,7 @@ endif;
                 <div class="modal-body">
                     <div class="row">
                     <div class="col-md-12">
-                            Preencha as informações o contribua com a plataforma. Todas as informações são sigilosas e as informações de contato são opcionais. <br />
+                            Preencha as informações e contribua com a plataforma. Todas as informações são sigilosas e as informações de contato são opcionais. <br />
                     </div>
 						
 						
