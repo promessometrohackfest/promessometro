@@ -38,7 +38,7 @@
           <p class="mb-0"> <i>"Advogado, acredita que a tecnologia é o melhor caminho para melhorar a vida das pessoas"</i> </p>
         </div>
         <div class="col-lg-3 col-6 p-4"> <img class="rounded-circle" src="equipe/katelen.jpeg" width="100">
-          <h4> <b>Katleen</b> </h4>
+          <h4> <b>Katleen Barros</b> </h4>
           <p>Desenvolvendora Front-End</p>
           <p class="mb-0"> <i>"Estudante de engenharia elétrica, estagiária na Sídia"</i> </p>
         </div>
@@ -49,13 +49,13 @@
         </div>
            
            <div class="col-lg-3 col-6 p-4"> <img class=" rounded-circle" src="equipe/yure.jpeg" width="100">
-          <h4> <b>Yure</b> </h4>
+          <h4> <b>Yure Luniere</b> </h4>
           <p>Estudante</p>
           <p class="mb-0"> <i>"Acadêmico de Engenharia de Controle e Automação"</i> </p>
         </div>
            
            <div class="col-lg-3 col-6 p-4"> <img class=" rounded-circle" src="equipe/victor.jpeg" width="100">
-          <h4> <b>Victor</b> </h4>
+          <h4> <b>Victor Mateus</b> </h4>
           <p>Estudante</p>
           <p class="mb-0"> <i>"Acadêmico e Apreciador de Tecnologia"</i> </p>
         </div>
