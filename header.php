@@ -1,5 +1,5 @@
 <?php
-	$Description='Promessomtro';
+	$Description='Promessometro';
 ?>
 
 

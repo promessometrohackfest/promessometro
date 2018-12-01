@@ -1,24 +1,17 @@
 <?php
 require_once'Conn/conexao.php';
 require_once'Conn/conection.php';
-
-
 // Recebe o termo de pesquisa se existir
 $termo = (isset($_GET['termo'])) ? $_GET['termo'] : '';
-
-
  
 // Verifica se o termo de pesquisa está vazio, se estiver executa uma consulta completa
 if (empty($termo)):
-
 	$conexao = conexao::getInstance();
 	$sql = 'SELECT id, tipopromessa, nomepolitico, nomepromessa, detalhepromessa, anopromessa, estadopromessa, cidadepromessa, status, foto FROM tab_promessas';
 	$stm = $conexao->prepare($sql);
 	$stm->execute();
 	$clientes = $stm->fetchAll(PDO::FETCH_OBJ);
-
 else:
-
 	// Executa uma consulta baseada no termo de pesquisa passado como parâmetro
 	$conexao = conexao::getInstance();
 	$sql = 'SELECT id, tipopromessa, nomepolitico, nomepromessa, detalhepromessa, anopromessa, estadopromessa, cidadepromessa, status, foto FROM tab_promessas WHERE nomepolitico LIKE :nomepolitico OR anopromessa LIKE :anopromessa';
@@ -27,10 +20,7 @@ else:
 	$stm->bindValue(':anopromessa', $termo.'%');
 	$stm->execute();
 	$clientes = $stm->fetchAll(PDO::FETCH_OBJ);
-
 endif;
-
-
 ?>
 
 
@@ -38,8 +28,8 @@ endif;
     <div class="container">
       <div class="row">
         <div class="px-4 pr-2 col-md-8" style="">
-          <h2 class="text-left ml-5 text-dark px-4" style="">Porque Prometer e não Cumprir, é pior do que mentir<br></h2>
-          <p class="lead ml-5 pl-4">Acompnhe e fiscalize as promessas dos candidatos&nbsp; eleitos estão sendo cumpridas. Digite um nome/ou um ano para começar.</p>
+          <h2 class="text-left ml-5 text-dark px-4" style="">Porque prometer e não cumprir, é pior do que mentir<br></h2>
+          <p class="lead ml-5 pl-4">Acompanhe e fiscalize se as promessas dos candidatos&nbsp;eleitos estão sendo cumpridas. Digite um nome/ou um ano para começar.</p>
         </div>
       </div>
     </div>
@@ -95,7 +85,7 @@ endif;
       <div class="row">
         <div class="col-md-12" style="">
           <h3 class="display-4 text-center" style="">Estatísticas</h3>
-          <h3 class="text-center mx-5 px-5">Veja os niveis de satisfação de nosso publico com as promessas feitas nas ultimas campanhas</h3>
+          <h3 class="text-center mx-5 px-5">Veja os níveis de satisfação de nosso público com as promessas feitas nas últimas campanhas</h3>
         </div>
       </div>
     </div>
@@ -107,10 +97,10 @@ endif;
           <h5> <b class="">Das promesssas não foram cumpridas</b></h5>
         </div>
         <div class="col-lg-3 col-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="images/grafico_90_.svg" width="100" alt="Card image cap">
-          <h5> <b class="">Dos entrevistados sentiram-se enganado</b></h5>
+          <h5> <b class="">Dos entrevistados sentiram-se enganados</b></h5>
         </div>
         <div class="col-lg-3 col-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="images/grafico_62_.svg" width="100">
-          <h5> <b>Das promessas não foram cumpridas</b></h5>
+          <h5> <b>Dos entrevistados sentiram-se insatisfeitos</b></h5>
         </div>
         <div class="col-lg-3 col-6 p-4"> <img class="img-fluid d-block mb-3 mx-auto rounded-circle" src="images/grafico_93_.svg" width="100">
           <h5> <b>Dos entrevistados desejam acompanhar as promessas</b></h5>
@@ -128,7 +118,7 @@ endif;
     <div class="container">
       <div class="row">
         <div class="mx-auto col-md-12">
-          <h1 class="mb-3">Simplicidade e tansparência</h1>
+          <h1 class="mb-3">Simplicidade e transparência</h1>
           <div class="col-md-12">
             <h5 contenteditable="true" class="text-center mx-5 px-5">O promessômetro funciona em dois passos muito simples para que você possa fiscalizar seus candidatos sem dificuldades!</h5>
           </div>
@@ -140,14 +130,14 @@ endif;
           <p class="mx-5 mb-0">Você pode encontrar o candidato pelo nome, ano de eleição, estado e cargo ocupado</p>
         </div>
         <div class="col-6 col-lg-6 p-4"> <img class="img-fluid d-block mx-auto mt-4 mb-4 img-thumbnail" src="images/Símbolo - Não Cumprido.svg" width="200" alt="Card image cap">
-          <h4> <b>Abra a pagina e acompanhe!</b></h4>
+          <h4> <b>Abra a página e acompanhe!</b></h4>
           <p class="mt-4 mb-0 text-center px-5">Veja a lista das promessas e confira o promessômetro para ficar por dentro do seu andamento</p>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12">
           <h1 class="mb-3 mt-5">PPA, LDO e LOA</h1>
-          <h5 class="text-center mx-5 px-5">Você sabe como funciona a gestão do dinheiro publico? Assista esses três videos que separamos para você e saiba mais como fiscalizar seus governantes.</h5>
+          <h5 class="text-center mx-5 px-5">Você sabe como funciona a gestão do dinheiro público? Assista esses três videos que separamos para você e saiba mais como fiscalizar seus governantes.</h5>
         </div>
       </div>
     </div>
@@ -174,7 +164,7 @@ endif;
       <div class="row text-center" style="">
         <div class="mx-auto p-4 col-lg-7">
           <h2 class="mb-2">Entre em contato conosco</h2>
-          <h5 class="text-center">Você tem duvidas ou sugetões ou gostaria de nos dizer alguma coisa? entre em contado para conversarmos<br></h5>
+          <h5 class="text-center">Você tem dúvidas, sugestões ou gostaria de nos dizer alguma coisa? Entre em contado para conversarmos.<br></h5>
           <form>
             <div class="form-row">
               <div class="form-group col-md-12" style=""> <input type="text" class="form-control" name="nomecontato" placeholder="Name"> </div>
@@ -215,7 +205,7 @@ endif;
                 <div class="modal-body">
                     <div class="row">
                     <div class="col-md-12">
-                            Preencha as informações o contribua com a plataforma. Todas as informações são sigilosas e as informações de contato são opcionais. <br />
+                            Preencha as informações e contribua com a plataforma. Todas as informações são sigilosas e as informações de contato são opcionais. <br />
                     </div>
 						
 						
@@ -280,4 +270,4 @@ endif;
                 <script src="js/jquery.js"></script>
 				<script src="js/script.js"></script>
 				<script src="js/bootstrap.js"></script>
-				<script src="js/bootstrap.bundle.js"></script>
+                    <script src="js/bootstrap.bundle.js"></script>

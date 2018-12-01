@@ -27,7 +27,7 @@ Este sistema é um software livre baseado em outros softwares livres; você pode
 
 Este sistema é distribuído na esperança de que possa ser  útil, mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO a qualquer MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a Licença Pública Geral GNU para maiores detalhes.
 
-Em caso de dúvidas, erros ou sugestões, por favor, envie e-mail para juniorpinto192@gmail.com
+Em caso de dúvidas, erros ou sugestões, por favor, envie e-mail para chegadpromessa@gmail.com
 
 
 Requisitos:
@@ -52,10 +52,10 @@ Configuração da aplicação:
 
 2. Altere os dados do seguinte arquivo:
 
-	a. geradoc/Conn/conexao.php
+	a. /Conn/conexao.php
 	
 		
-3. Na pasta geradoc/Conn/conexao.php altere o nome banco de acordo com o banco criado no nosso casso é promessometro:
+3. Na pasta /Conn/conexao.php altere o nome banco de acordo com o banco criado no nosso casso é promessometro:
 		
 		Constantes de parâmetros para configuração da conexão
  */
@@ -71,9 +71,9 @@ define('SERVER', 'linux');
 
 4. Altere os dados do seguinte arquivo:
 
-	a. geradoc/Conn/conection.php
+	a. /Conn/conection.php
     
-    b. Na pasta geradoc/Conn/conexao.php altere o nome banco de acordo com o banco criado no nosso casso é promessometro:
+    b. Na pasta /Conn/conexao.php altere o nome banco de acordo com o banco criado no nosso casso é promessômetro:
     
 		<?php
 	abstract class Conn{
@@ -97,6 +97,7 @@ define('SERVER', 'linux');
 
 Acesso ao sistema local:
 ===================================
+Link funcional do promessômetro [https://promessometro.com]
 
 Acesse [http://localhost/promessometro] para visualizar o portal
 

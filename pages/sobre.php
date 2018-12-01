@@ -10,7 +10,7 @@
                 </div>
                 <div class="col-md-6">
                     <h2>Sobre o Promessômetro</h2><br>
-                    <h4>Plataforma idealizada durante o 1° AMAZON Hackfest evento voltado para a criar soluções no combater à corrupção. Nosso objetivo é oferecer ao povo uma ferramenta leve em que todos possam acompanhar seus candidatos eleitos e saber o andamento das promessas feitas durante campanha eleitoral. </h4>
+                    <h4>Plataforma idealizada durante o 1° AMAZON Hackfest, evento voltado para a criar soluções no combater à corrupção. Nosso objetivo é oferecer ao povo uma ferramenta leve em que todos possam acompanhar seus candidatos eleitos e saber o andamento das promessas feitas durante campanha eleitoral. </h4>
                 </div>
             </div>
             
@@ -28,7 +28,7 @@
       </div>
       <div class="row">
         <div class="col-lg-3 col-6 p-4"> <img class="rounded-circle" src="equipe/jr.jpg" width="100" alt="Card image cap">
-          <h4> <b>José Jr</b> </h4>
+          <h4> <b>José Nascimento Jr</b> </h4>
           <p>Desenvolvedor Front-End/Back-End</p>
           <p class="mb-0"> <i>"Bacharel em Ciência da Computação, Pós-Graduado em Auditoria e segurança de informatica"</i> </p>
         </div>
@@ -38,26 +38,32 @@
           <p class="mb-0"> <i>"Advogado, acredita que a tecnologia é o melhor caminho para melhorar a vida das pessoas"</i> </p>
         </div>
         <div class="col-lg-3 col-6 p-4"> <img class="rounded-circle" src="equipe/katelen.jpeg" width="100">
-          <h4> <b>Katleen</b> </h4>
+          <h4> <b>Katleen Barros</b> </h4>
           <p>Desenvolvendora Front-End</p>
           <p class="mb-0"> <i>"Estudante de engenharia elétrica, estagiária na Sídia"</i> </p>
         </div>
         <div class="col-lg-3 col-6 p-4"> <img class=" rounded-circle" src="equipe/marilia.png" width="100">
-          <h4> <b>Marilia</b> </h4>
+          <h4> <b>Marilia Soares</b> </h4>
           <p>Graduanda em TADS</p>
           <p class="mb-0"> <i>"Entusiasta da programação, louca por café e linhas de código"</i> </p>
         </div>
            
            <div class="col-lg-3 col-6 p-4"> <img class=" rounded-circle" src="equipe/yure.jpeg" width="100">
-          <h4> <b>Yure</b> </h4>
+          <h4> <b>Yure Luniere</b> </h4>
           <p>Estudante</p>
           <p class="mb-0"> <i>"Acadêmico de Engenharia de Controle e Automação"</i> </p>
         </div>
            
            <div class="col-lg-3 col-6 p-4"> <img class=" rounded-circle" src="equipe/victor.jpeg" width="100">
-          <h4> <b>Victor</b> </h4>
+          <h4> <b>Victor Mateus</b> </h4>
           <p>Estudante</p>
           <p class="mb-0"> <i>"Acadêmico e Apreciador de Tecnologia"</i> </p>
+        </div>
+           
+            <div class="col-lg-3 col-6 p-4"> <img class=" rounded-circle" src="equipe/cristiano.jpeg" width="100">
+          <h4> <b>Cristiano Ferreira</b> </h4>
+          <p>Designer</p>
+          <p class="mb-0"> <i>"Graduado em Design, apaixonado por projetos que fazem a diferença"</i> </p>
         </div>
 		 
 		  <div class="col-lg-3 col-6 p-4"> <img class="i rounded-circle" src="equipe/alan.jpeg" width="100">
